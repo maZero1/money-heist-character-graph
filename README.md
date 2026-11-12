@@ -47,9 +47,9 @@ Os critérios completos (o que é interação, início e fim, cenas com três ou
 
 Redes construídas: [global, positiva, negativa, por episódio, ...].
 
-## Análises
+## Análises(Incompleto)
 
-O notebook reúne [8 ou mais] análises, entre elas:
+O notebook reúne análises, entre elas:
 
 - [Caracterização geral da rede]
 - [Distribuição de graus]

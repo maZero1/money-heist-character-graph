@@ -5,42 +5,20 @@ Departamento de Engenharia de Software, UDESC. Professor: Marcelo de Souza.
 
 ## Sobre o projeto
 
-Este trabalho aplica conceitos, métricas e algoritmos de Teoria dos Grafos e Análise de Redes Complexas às interações entre personagens da série **La Casa de Papel (Money Heist)**, considerando a primeira temporada (assalto à Casa da Moeda) [delimitação a confirmar com o professor].
+Este trabalho aplica conceitos, métricas e algoritmos de Teoria dos Grafos e Análise de Redes Complexas às interações entre personagens da série **La Casa de Papel (Money Heist)**, considerando a primeira temporada.
 
-A base de dados foi construída **manualmente**, assistindo à série e registrando cada interação direta entre dois personagens. A partir dela são construídas redes que respondem a perguntas sobre a estrutura social da obra: quem são os personagens centrais, quais grupos se formam, como aliados e inimigos se organizam e como a rede muda ao longo dos episódios.
+A base de dados será construída **manualmente**, assistindo à série e registrando cada interação direta entre dois personagens. A partir dela são construídas redes que respondem a perguntas sobre a estrutura social da obra: quem são os personagens centrais, quais grupos se formam, como aliados e inimigos se organizam e como a rede muda ao longo dos episódios.
 
 A metodologia segue as diretrizes de Labatut e Bost (2019) para extração e análise de redes de personagens fictícios.
 
 ## Integrantes
 
-- [Nome 1]
-- [Nome 2]
-- [Nome 3]
-
-## Estrutura do repositório
-
-```
-.
-├── dados/
-│   ├── interacoes.txt        # base de interações (uma por linha)
-│   └── personagens.csv       # dicionário: id -> nome canônico
-├── notebook/
-│   └── analise.ipynb         # notebook com as análises
-├── docs/
-│   └── manual_anotacao.md    # critérios de anotação
-├── requirements.txt
-└── README.md
-```
+- Maria Eduarda Zanin Zortea
+- Marlon Waltrich Martins dos Santos 
 
 ## A base de dados
 
 Cada registro representa **uma interação direta** entre dois personagens (estar na mesma cena não conta).
-
-Formato de cada linha do `interacoes.txt`, com campos separados por espaço:
-
-```
-personagem1 personagem2 sinal ambiente [localizador certeza tempo meio]
-```
 
 | Campo | Descrição |
 | --- | --- |
@@ -80,30 +58,14 @@ O notebook reúne [8 ou mais] análises, entre elas:
 - [Comparação entre interações positivas e negativas]
 - [Evolução ao longo dos episódios]
 
-## Como executar
-
-Requisitos: Python 3.10+ [conferir versão usada].
-
-```bash
-git clone [URL DO REPOSITÓRIO]
-cd [NOME-DA-PASTA]
-pip install -r requirements.txt
-jupyter notebook notebook/analise.ipynb
-```
-
-O notebook lê os arquivos da pasta `dados/` por caminho relativo. Para reproduzir tudo do zero, use *Restart & Run All*.
-
-Bibliotecas principais: `networkx`, `pandas`, `matplotlib`.
-
 ## Originalidade
 
-Não foi encontrado estudo publicado que analise esta obra por redes de interação entre personagens nas bases consultadas ([listar bases]) em [data]. A tabela de buscas está no notebook, na seção de delimitação do corpus.
+Não foi encontrado até então estudo publicado que analise esta obra por redes de interação entre personagens nas bases consultadas ([listar bases]) em [data]. A tabela de buscas está no notebook, na seção de delimitação do corpus.
 
 ## Referências
 
 - Labatut, V.; Bost, X. *Extraction and Analysis of Fictional Character Networks: A Survey.* ACM Computing Surveys, 52(5), 2019.
-- [demais referências]
 
 ## Observação
 
-Projeto acadêmico (avaliação de recuperação). Todos os direitos sobre a obra analisada pertencem aos seus detentores; este repositório contém apenas os registros de interações construídos pela equipe.
+Projeto acadêmico. Todos os direitos sobre a obra analisada pertencem aos seus detentores; este repositório contém apenas os registros de interações construídos pela equipe.

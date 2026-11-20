@@ -14,7 +14,8 @@ A metodologia segue as diretrizes de Labatut e Bost (2019) para extração e an�
 ## Integrantes
 
 - Maria Eduarda Zanin Zortea
-- Marlon Waltrich Martins dos Santos 
+- Marlon Waltrich Martins dos Santos
+- Maria Heloisa Witt
 
 ## A base de dados
 
